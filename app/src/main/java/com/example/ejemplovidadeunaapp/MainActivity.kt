@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         outState?.putString(NOMBRE, nombre)
     }
 
-
+    //OnPause
     override fun onPause() {
         super.onPause()
         Toast.makeText(this, "En transicion", Toast.LENGTH_SHORT).show()
