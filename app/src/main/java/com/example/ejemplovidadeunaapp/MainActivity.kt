@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         Toast.makeText(this, "En transicion", Toast.LENGTH_SHORT).show()
     }
-
+    //onStop
     override fun onStop() {
         super.onStop()
         Toast.makeText(this, "Aplicativo oculto", Toast.LENGTH_SHORT).show()
